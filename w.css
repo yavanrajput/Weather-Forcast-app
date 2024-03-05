@@ -1,0 +1,64 @@
+body {
+    background: url("https://ubuntuhandbook.org/wp-content/uploads/2021/07/M-Maggs-pixabay.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    color: wheat;
+
+
+}
+
+.input1 {
+    margin-left: 36%;
+    padding-top: 8%;
+}
+
+
+#btn {
+    width: 100px;
+    height: 34px;
+    border: 3px solid rgb(7, 2, 29);
+    border-radius: 2px;
+}
+
+#btn:hover {
+    background-color: rgb(88, 38, 226);
+}
+
+#search {
+    border: 3px solid rgb(7, 2, 29);
+    border-radius: 2px;
+    width: 250px;
+}
+
+.card {
+    width: 40%;
+    height: 30%;
+    margin-left: 30%;
+    margin-top: 16px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg5zibIVa7IsovOf3oUWBJlFdXPSX0CCWjrK8nEbUOHQGoRDrYGLELa7lWmP8BCAtaSGM&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid rgb(207, 224, 230);
+    border-radius: 5px;
+}
+
+
+#closeBtn{
+    margin-left: 95%;
+    border: 2px solid rgb(7, 2, 29) ;
+    border-radius: 3px;
+    transition: ease-out 0.5;
+    
+
+}
+
+#closeBtn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
